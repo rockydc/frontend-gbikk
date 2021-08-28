@@ -1,0 +1,19 @@
+    <div class="static mt-20">
+      <div class="relative h-screen">
+        <img
+          class="absolute z-0 top-0"
+          src="~/static/body-home.svg"
+          alt="body-home"
+        />
+        <div class="absolute -top-16 section-wrapper-event flex z-10 w-full">
+          <div class="bg-white p-0 carousel-wrapper w-1/2 xl:flex-1 h-40">
+            <Carousel />
+          </div>
+          <div class="xl:flex-1 h-80 flex justify-center items-center">
+            <h1 class="text-center text-white xl:text-5xl font-bold">
+              Upcoming Events
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
