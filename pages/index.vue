@@ -13,7 +13,7 @@
         />
         <div class="absolute z-10 left-0 right-0">
           <!-- section event -->
-          <div
+          <!-- <div
             class="
               -top-16
               section-wrapper-event
@@ -62,7 +62,7 @@
                 Upcoming Events
               </h1>
             </div>
-          </div>
+          </div> -->
           <!-- end section event -->
 
           <div
