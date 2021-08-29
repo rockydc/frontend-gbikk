@@ -31,7 +31,11 @@ export default {
       ssr: false,
     },
   ],
+  target: 'static',
   dev: process.env.NODE_ENV !== 'production',
+  generate: {
+    fallback: true,
+  },
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
