@@ -18,10 +18,10 @@
         },
       }"
     >
-      <img src="~/static/banner-1.png" alt="" />
-      <img src="~/static/banner-2.png" alt="" />
-      <img src="~/static/banner-2.png" alt="" />
-      <img src="~/static/banner-1.png" alt="" />
+      <img src="~/static/banner-1.webp" alt="banner-1.webp" />
+      <img src="~/static/banner-2.webp" alt="banner-2.webp" />
+      <img src="~/static/banner-2.webp" alt="banner-2.webp" />
+      <img src="~/static/banner-1.webp" alt="banner-1.webp" />
     </carousel>
   </no-ssr>
 </template>
