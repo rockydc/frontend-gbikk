@@ -12,59 +12,6 @@
           alt="body-home"
         />
         <div class="absolute z-10 left-0 right-0">
-          <!-- section event -->
-          <!-- <div
-            class="
-              -top-16
-              section-wrapper-event
-              flex flex-col
-              sm:flex-col
-              md:flex-row
-              lg:flex-row
-              xl:flex-row
-              lg:justify-start
-              items-stretch
-            "
-          >
-            <div
-              class="
-                bg-white
-                p-0
-                carousel-wrapper
-                w-screen
-                sm:w-screen
-                md:w-3/4
-                lg:w-1/2
-                xl:w-1/2
-                lg:flex-1
-                xl:flex-1
-                h-40
-              "
-            >
-              <Carousel />
-            </div>
-            <div
-              class="
-                hidden
-                sm:hidden
-                md:hidden
-                lg:flex
-                xl:flex xl:flex-1
-                h-80
-                lg:flex-1
-                justify-center
-                items-center
-              "
-            >
-              <h1
-                class="text-center text-white lg:text-4xl xl:text-4xl font-bold"
-              >
-                Upcoming Events
-              </h1>
-            </div>
-          </div> -->
-          <!-- end section event -->
-
           <div
             class="
               px-4
