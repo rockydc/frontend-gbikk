@@ -172,8 +172,8 @@
         <div class="image-content content flex justify-center items-center">
           <img
             class="w-full md:w-2/3 xl:w-2/3"
-            src="youth.png"
-            alt="youth.png"
+            src="youth.webp"
+            alt="youth.webp"
           />
         </div>
       </div>
