@@ -1,21 +1,5 @@
 <template>
-  <div
-    class="
-    
-      relative
-      h-80
-      md:h-96
-      lg:h-screen
-      xl:h-screen
-      sm:h-80
-      flex
-      mb-20
-      md:mb-44
-      border-black border-3
-      justify-center
-      items-center
-    "
-  >
+  <div class="wrapper relative flex justify-center items-center">
     <img
       class="
         border-black
@@ -35,15 +19,13 @@
         mt-4
         absolute
         w-full
-        flex
-        justify-center
-        flex-wrap
+        grid grid-cols-1
+        lg:grid-cols-2
         top-0
         sm:top-0
-        md:mt-16
+        md:mt-4
         lg:mt-20
         xl:mt-40
-        items-center
         z-10
         md:px-4
         lg:px-8
@@ -65,7 +47,7 @@
         "
       >
         <img
-          class="w-1/2 h-30 md:h-40 xl:h-56 lg:h-30 sm:w-1/2 md:w-60 lg:w-auto"
+          class="w-1/2 md:w-1/3 lg:w-2/3 xl:w-1/2"
           src="~/static/foto-pak-gem-sam.webp"
           alt="Foto-Pagem-ko-Sam.png"
         />
@@ -115,5 +97,62 @@
   </div>
 </template>
 <style lang="scss" scoped>
+.wrapper {
+  height: 100vh;
+  margin-bottom: 200px;
+  .img-header-profile {
+    width: 100%;
+  }
 
+  // w-1/2 h-30 md:h-40 xl:h-56 lg:h-30 sm:w-1/2 md:w-60 lg:w-auto
+}
+
+@include mobile {
+  .wrapper {
+    height: 50vh;
+    margin-bottom: 50px;
+  }
+}
+
+@include tablet {
+  .wrapper {
+    height: 70vh;
+    margin-bottom: 50px;
+  }
+}
+
+@include tablet-xl {
+  .wrapper {
+    height: 70vh;
+    margin-bottom: 100px;
+  }
+}
+
+@include desktop {
+  .wrapper {
+    height: 70vh;
+    margin-bottom: 100px;
+  }
+}
+
+@include superdesktop {
+  .wrapper {
+    height: 100vh;
+    margin-bottom: 100px;
+  }
+}
+
+// relative
+// h-80
+// md:h-96
+// lg:h-screen
+// xl:h-screen
+// sm:h-80
+// flex
+// mb-20
+// md:mb-44
+// border-black border-3
+// justify-center
+// items-center
+// wrapper
 </style>

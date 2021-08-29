@@ -18,6 +18,10 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap',
       },
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/flickity@2/dist/flickity.min.css',
+      },
     ],
   },
 
@@ -27,7 +31,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     {
-      src: 'plugins/owl.js',
+      src: 'plugins/vueFlickity.js',
       ssr: false,
     },
   ],

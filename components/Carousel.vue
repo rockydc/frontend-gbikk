@@ -1,35 +1,33 @@
 <template>
   <no-ssr>
-    <carousel
-      :rtl="false"
-      :nav="false"
-      :autoplay="true"
-      :items="1"
-      :loop="true"
-      :responsive="{
-        0: {
-          stagePadding: 0,
-        },
-        768: {
-          stagePadding: 20,
-        },
-        1048: {
-          stagePadding: 30,
-        },
-      }"
-    >
+    <flickity ref="flickity" :options="flickityOptions">
       <img src="~/static/banner-1.webp" alt="banner-1.webp" />
       <img src="~/static/banner-2.webp" alt="banner-2.webp" />
-      <img src="~/static/banner-2.webp" alt="banner-2.webp" />
       <img src="~/static/banner-1.webp" alt="banner-1.webp" />
-    </carousel>
+    </flickity>
   </no-ssr>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      flickityOptions: {
+        freeScroll: true,
+        lazyLoad: true,
+        autoPlay: true,
+        lazyLoad: 1,
+        rightToLeft: true,
+      },
+    }
+  },
+}
+</script>
 <style lang="scss" scoped>
 @import '~/assets/scss/global.scss';
 
 img {
   height: 500px;
+  width: 100%;
 }
 
 @include mobile {

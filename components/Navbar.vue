@@ -16,8 +16,8 @@
         z-20
       "
     >
-      <li><NuxtLink to="/">Home page</NuxtLink></li>
-      <li><NuxtLink to="/event">Event</NuxtLink></li>
+      <li><NuxtLink to="/">Beranda</NuxtLink></li>
+      <li><NuxtLink to="/event">Kegiatan</NuxtLink></li>
       <li><NuxtLink to="/renungan">Renungan</NuxtLink></li>
       <li><NuxtLink to="/">Jadwal Ibadah</NuxtLink></li>
     </ul>
@@ -106,7 +106,7 @@ nav {
       right: 0;
       top: 0;
       flex-direction: column;
-      height: 100vh;
+      height: 100%;
       justify-content: space-evenly;
       align-items: center;
       background-color: black;

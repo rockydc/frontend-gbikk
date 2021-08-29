@@ -12,6 +12,60 @@
           alt="body-home"
         />
         <div class="absolute z-10 left-0 right-0">
+          <!-- section event -->
+          <div
+            class="
+              -top-16
+              section-wrapper-event
+              flex flex-col
+              sm:flex-col
+              md:flex-row
+              lg:flex-row
+              xl:flex-row
+              lg:justify-start
+              items-stretch
+            "
+          >
+            <div
+              class="
+                bg-white
+                p-0
+                carousel-wrapper
+                w-screen
+                sm:w-screen
+                md:w-3/4
+                lg:w-1/2
+                xl:w-1/2
+                lg:flex-1
+                xl:flex-1
+                h-40
+              "
+            >
+              <Carousel />
+            </div>
+            <div
+              class="
+                hidden
+                sm:hidden
+                md:hidden
+                lg:flex
+                xl:flex xl:flex-1
+                h-80
+                lg:flex-1
+                justify-center
+                items-center
+                w
+              "
+            >
+              <h1
+                class="text-center text-white lg:text-4xl xl:text-4xl font-bold"
+              >
+                Kegiatan
+              </h1>
+            </div>
+          </div>
+          <!-- end section event -->
+
           <div
             class="
               px-4
@@ -71,7 +125,7 @@
           mb-16
         "
       >
-        Our Communities
+        Komunitas
       </h1>
       <div
         class="
@@ -103,7 +157,7 @@
         <div
           class="text-content content flex justify-center items-start flex-col"
         >
-          <h1 class="text-3xl font-semibold">Our Pastor</h1>
+          <h1 class="text-3xl font-semibold">Lebih Dekat dengan Gembala</h1>
           <p class="mt-2 text-lg font-bold tracking-widest">
             Pdt.sahala Nainggolan m.Th
           </p>
