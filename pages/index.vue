@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="overflow-x-hidden">
     <HeaderHome />
     <!-- section body content -->
 

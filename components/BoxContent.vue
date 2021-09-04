@@ -1,10 +1,6 @@
 <template>
   <div class="relative flex justify-center items-center box-content">
-    <img
-      class="absolute"
-      :src="'http://backoffice-gbikk.herokuapp.com/' + path"
-      :alt="name"
-    />
+    <img class="absolute" :src="path" :alt="name" />
     <div class="absolute bottom-5 left-4">
       <h1 class="text-title text-white text-2xl font-bold">{{ title }}</h1>
     </div>
